@@ -12,12 +12,23 @@
 .home-content{
     padding-top: 200px;
 }
+.navp{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
 
 
 .header ul li a {
     color: white !important;
     padding-left: 32px !important;
     font-size: 14px;
+}
+.header ul li .active {
+    color: #F9365F !important;
+}
+.header ul li a:hover{
+    color: #F9365F !important;
+    transition: 1s;
 }
 .header .nav-item img {
     width: 17px;
@@ -108,11 +119,19 @@ color: #F9365F;
     position: relative;
     font-family: 'Raleway', sans-serif;
 }
+.process .grow{
+    width: 500px;
+    font-size: 35px !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
 .grow{
     width: 500px;
     font-size: 35px !important;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+ 
 }
 .grow span{
     color: #F9365F;
@@ -120,6 +139,9 @@ color: #F9365F;
 
 .service-tabs{
     margin-top: 35px;
+}
+.services .nav-tabs{
+border: none;
 }
 .tab1 a{
     color: #CBCBCB;
@@ -404,7 +426,7 @@ font-family: 'ralewaybold';
 /* footer */
 .footer{
     background-color: #090B0B;
-   
+   margin-top: 80px;
 }
 .footer h4{
     font-size: 28px;
@@ -553,3 +575,101 @@ font-family: 'ralewaybold';
 .logos img{
     padding-right: 20px;
 }
+.help-sec .talk {
+    background-color: #F9365F;
+    color: white;
+    border-radius: 40px !important;
+    padding: 12px 44px;
+    width: 200px;
+    margin: auto;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+.sec-page .serv::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 1px;
+    background: #000;
+    left: 147px;
+    top: 50%;
+    position: absolute;
+}
+.about-veuz .serv::after{
+    content: "";
+    display: block;
+    width: 45px;
+    height: 1px;
+    background: #000;
+    left: 168px !important;
+    top: 50%;
+    position: absolute;
+}
+
+
+.checkbox {
+    width: 220px;
+    height: 50px;
+    background-color: #d0d0d0;
+    border-radius: 30px;
+    position: relative;
+    color: black;
+    overflow: hidden;
+    rotate: 270deg;
+    bottom: 500px;
+    right: 45px;
+}
+  
+  #checkbox_toggle {
+    display: none;
+  }
+  
+  .checkbox .toggle {
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    border-radius: 30px;
+    left: 5px;
+    cursor: pointer;
+    background: linear-gradient(40deg, #Fff,#ffff 70%);
+    transition: 0.4s;
+  
+  }
+  
+  .checkbox .slide {
+    width: 220px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  
+  .checkbox .slide .text {
+    font-size: 16px;
+    font-weight: 700;
+    z-index: 100;
+    cursor: pointer;
+  }
+  
+  .check:checked + .checkbox .slide .toggle {
+    transform: translateX(113px);
+    background: linear-gradient(40deg, #8983F7, #A3DAFB 70%);
+    box-shadow: -0px -0px 10px #8983F7, -0px -0px 30px #8983F7;
+  }
+  
+  .check:checked + .checkbox .slide {
+    background-color: #0a1929;
+    color: #fff;
+  }
+  .chat{
+    position: absolute;            
+    bottom: 10px;
+    right: 50px;
+  }
+  .srch{
+    position: absolute;            
+    bottom: 10px;
+    left: 50px;
+  }
