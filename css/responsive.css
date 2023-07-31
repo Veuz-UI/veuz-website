@@ -1,0 +1,72 @@
+@media all and (min-width:100px) and (max-width: 768px) {
+.navp{
+    padding: 0px !important;
+}
+    .orange img{
+        width: 100%;
+    }
+    .help-sec h2 {
+        font-size: 20px;
+    }
+    .home-bg h2{
+        font-size: 25px;
+    }
+    .home-content {
+        padding-top: 50px;
+    }
+
+    .know-more {
+        padding: 15px;
+    }
+    .know-more img {
+      margin: 0px;
+    }
+    .veuz{
+        font-size: 60px;
+    }
+    .grow{
+        width: 100%;
+        font-size: 25px !important;
+    }
+    .pr-man1 img{
+        width: 100%;
+    }
+    .srvc-tabs::after {
+        display: none;
+    }
+    .about-veuz::after {
+        display: none;
+    }
+    .abt-crsl .owl {
+        padding: 0px;
+    }
+    .tab2 {
+        padding: 0px;
+    }
+    .qlty img {
+        display: none;
+    }
+    .about-veuz .ing{
+        font-size: 25px !important;
+    }
+    .ab-discription{
+        padding: 0px;
+    }
+    .research img {
+        position: absolute;
+        bottom: 78px;
+        width: 100%;
+        left: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+ 
