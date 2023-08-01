@@ -1,57 +1,180 @@
 @media all and (min-width:100px) and (max-width: 768px) {
-.navp{
-    padding: 0px !important;
-}
-    .orange img{
+    .navp {
+        padding: 0px !important;
+    }
+
+    .orange img {
         width: 100%;
     }
+
     .help-sec h2 {
         font-size: 20px;
     }
-    .home-bg h2{
+
+    .home-bg h2 {
         font-size: 25px;
-    }
-    .home-content {
-        padding-top: 50px;
+        padding: 30px;
     }
 
+    .home-content {
+        padding-top: 20px;
+    }
+    .owl-theme .owl-nav{
+        display: none;
+    }
+    .image-box2 img {
+        height: auto;
+    }
+    .image-box4 img  {
+        height: auto !important;
+    }
+
+    .home-bg .talk {
+        background-color: #F9365F;
+        color: white;
+        border-radius: 40px !important;
+        padding: 12px 44px;
+        width: 161px;
+        height: 50px;
+        margin: auto;
+        font-size: 14px;
+        font-family: 'ralewaysemibold';
+        border: none;
+        margin-top: 15px;
+        margin-bottom: 35px;
+    }
+
+    .home-bg h4 {
+        padding: 0px 80px !important;
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .user-exp {
+   display: none;
+    }
+
+    .user-exp .container {
+        padding: 0px;
+    }
+
+    .user::before {
+        content: "";
+        background-image: url(../img/icon-left.svg);
+        height: 30px;
+        width: 12px;
+        position: absolute;
+        top: 0px;
+        left: 110px;
+    }
+
+    .user::after {
+        content: "";
+        background-image: url(../img/icon-right.svg);
+        height: 30px;
+        width: 12px;
+        position: absolute;
+        top: 0px;
+        right: 110px;
+    }
+
+    .sec-page .serv::after {
+        top: 115%;
+    }
+
+    .abt-sec {
+        margin-top: 50px;
+    }
+
+.tab1 li{
+    width: 100%;
+}
+
+
+
+
+
+.srch{
+    display: none;
+}
+
+
+.know-more .grow{
+    margin-top: 30px;
+}
+
+
     .know-more {
-        padding: 15px;
+        padding: 0px;
     }
+
     .know-more img {
-      margin: 0px;
+        margin-top: 30px;
+        margin-left: 0;
     }
-    .veuz{
-        font-size: 60px;
+
+    .veuz {
+        font-size: 45px;
+        margin-top: 35px;
     }
-    .grow{
+
+    .grow {
         width: 100%;
         font-size: 25px !important;
+        padding-top: 15px;
     }
-    .pr-man1 img{
+
+    .pr-man1 img {
         width: 100%;
     }
+
     .srvc-tabs::after {
         display: none;
     }
+
     .about-veuz::after {
         display: none;
     }
+
     .abt-crsl .owl {
         padding: 0px;
     }
+
+    .tab1 a {
+        font-size: 20px !important;
+        margin-bottom: 20px;
+    }
+
     .tab2 {
         padding: 0px;
     }
+
+    .tab2 p {
+        padding: 0;
+    }
+
     .qlty img {
         display: none;
     }
-    .about-veuz .ing{
+
+    .about-veuz .ing {
         font-size: 25px !important;
+        /* padding: 15px; */
     }
-    .ab-discription{
-        padding: 0px;
+
+    .about-veuz h3 {
+        /* padding-left: 15px; */
     }
+
+    .ab-discription {
+        padding: 0;
+        margin: 0;
+    }
+
+    .View-more {
+        padding-left: 0px;
+    }
+
     .research img {
         position: absolute;
         bottom: 78px;
@@ -59,14 +182,184 @@
         left: 0px;
     }
 
+    .sec-page h3 {
+        padding-top: 50px;
+        padding-left: 15px;
+    }
+
+    .craft {
+        font-size: 25px;
+    }
+
+    .orange img {
+        margin-top: 10px;
+    }
+
+    .testimonials .grow {
+        font-size: 25px !important;
+    }
+
+    .best-work {
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .service-tabs {
+        /* padding: 15px; */
+        margin-top: 20px;
+    }
+
+    .services .grow,
+    .serv {
+        /* padding: 15px; */
+    }
+
+    /* dark mode */
+
+    .checkbox {
+        width: 120px;
+        height: 30px;
+        top: 317px;
+        left: -30px;
+        position: absolute;
+    }
+
+    .checkbox .slide {
+        width: 120px;
+        height: 30px;
+    }
+
+    .checkbox .toggle {
+        width: 58px;
+        height: 23px;
+    }
+
+    .check:checked+.checkbox .slide .toggle {
+        transform: translateX(51px);
+    }
+
+    .checkbox .slide .text {
+        font-size: 13px;
+        font-family: 'ralewaybold';
+    }
+
+    .about-veuz .serv::after {
+        left: 187px !important;
+    }
+
+    .load1 {
+        padding: 50px 0px 50px 0px;
+    }
+
+
+    .testimonials {
+        padding-top: 0;
+    }
+
+    /* .owl-carousel .owl-item img {
+        width: 30px !important;
+    } */
+
+    .tst-crsl {
+        padding: 23px 162px 0px 29px
+    }
+
+    .tst-crsl h5 {
+        font-size: 14px;
+    }
+
+    .tst-crsl h6 {
+        font-size: 11px;
+    }
+
+    .tstm {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+    }
+
+    .owl-carousel .owl-item .quot img {
+        width: 15% !important;
+    }
+
+    .tst-crsl p {
+        font-size: 13px;
+        padding-bottom: 8px;
+    }
+
+    .man img {
+        margin-left: 10px;
+    }
+
+    .owl-theme .owl-dots {
+        left: 160px;
+    }
+
+.logos{
+    padding-left: 0;
+    padding-top: 10px;
+}
 
 
 
+/* process */
+.process .grow{
+    width: 0px;
+}
+.help-sec h3{
+    font-size: 25px;
+    width: 92%;
+}
+.help-sec .talk {
+    margin-top: 80px;
+}
+.count{
+    font-size: 30px;
+}
+.p1{
+    flex: 1 0 100% !important;
+}
+.ids{
+    padding-top: 10px;
+}
 
 
+
+    /* footer */
+    .footer h4 {
+        font-size: 25px !important;
+    }
+
+    .mail-ic {
+        text-align: start !important;
+    }
+
+    .fbtn {
+        display: flex !important;
+        justify-content: start !important;
+    }
+
+    .footer .explore {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .footer2 h4 {
+        margin-bottom: 25px;
+    }
+    .footer2 h5{
+        margin-bottom: 25px;
+
+    }
+
+    .footer {
+        padding: 5px;
+        margin-top: 45px;
+    }
+    .f-last{
+        flex-wrap: wrap;
+    }
 
 
 
 
 }
- 
