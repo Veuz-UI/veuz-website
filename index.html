@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="font/raleway/stylesheet.css">
     <link rel="stylesheet" href="font/opensans/stylesheet.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css"
@@ -65,14 +66,14 @@
         </nav>
     </section>
     <section class="home-bg">
-        <div class="home-content">
+        <div class="home-content" data-aos="fade-up" data-aos-duration="2000">
             <h2>Innovative. Ingenious. In-time. <br> We invent <span>limitless possibilities</span></h2>
             <h4>We combine your unique idea with our expertise, to take your business where it’s never been before.
             </h4>
 
             <button type="button" class="talk">Let's talk</button>
         </div>
-        <div class="user-exp">
+        <div class="user-exp" data-aos="fade-up" data-aos-duration="3000">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
@@ -127,11 +128,11 @@
     </section>
 
 
-    <section class="abt-sec">
+    <section class="abt-sec" data-aos="fade-up" data-aos-duration="2000">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <div class="about-veuz">
+                    <div class="about-veuz" data-aos="fade-up">
                         <h3 class="serv mb-3">About Veuz Concepts</h3>
                         <h2 class="ing">Ingenious designers
                             and <span>developers</span> crazy
@@ -174,7 +175,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+    <section class="services" data-aos="fade-up" data-aos-duration="2000">
         <div class="container py-4 mt-5">
             <h3 class="serv">Our services</h3>
             <h2 class="grow">Grow <span>bigger</span>and better <br>
@@ -182,19 +183,24 @@
             <div class="service-tabs">
                 <div class="row">
                     <div class="col-md-4 srvc-tabs">
-                        <ul class="nav nav-tabs tab1">
-                            <li class="active"><a data-toggle="tab" href="#home" class="active"> <span>01</span> Website
+                        <ul class="nav nav-tabs tab1" id="v-pills-tab">
+                            <li class="active"><a id="servicetab1" data-toggle="tab" href="service1"
+                                    class="active newclass"> <span>01</span> Website
                                     development</a></li>
-                            <li><a data-toggle="tab" href="#menu1"><span>02</span>Mobile application development</a>
+                            <li><a id="servicetab2" data-toggle="tab" href="#service2"
+                                    class="newclass"><span>02</span>Mobile application development</a>
                             </li>
-                            <li><a data-toggle="tab" href="#menu2"><span>03</span>UI/UX design</a></li>
-                            <li><a data-toggle="tab" href="#menu3"><span>04</span>Digital Marketing</a></li>
-                            <li><a data-toggle="tab" href="#menu4"><span>05</span>Cyber security</a></li>
+                            <li><a id="servicetab3" data-toggle="tab" href="#service3"
+                                    class="newclass"><span>03</span>UI/UX design</a></li>
+                            <li><a id="servicetab4" data-toggle="tab" href="#service4"
+                                    class="newclass"><span>04</span>Digital Marketing</a></li>
+                            <li><a id="servicetab5" data-toggle="tab" href="#service5"
+                                    class="newclass"><span>05</span>Cyber security</a></li>
                         </ul>
                     </div>
                     <div class="col-md-8">
                         <div class="tab-content tab2">
-                            <div id="home" class="tab-pane fade in active show">
+                            <div id="service1" class="tab-pane newclass active show">
                                 <p>With more than a thousand plus happy customers, a decade of experience, and a veteran
                                     team, we aid you in all your business endeavors. We work with your team to
                                     understand
@@ -219,14 +225,13 @@
                                                 alt=""></span></a>
                                 </div>
                             </div>
-                            <div id="menu1" class="tab-pane fade">
+                            <div id="service2" class="tab-pane newclass">
                                 <p>With more than a thousand plus happy customers, a decade of experience, and a veteran
                                     team, we aid you in all your business endeavors. We work with your team to
                                     understand
                                     your business challenges, and how our technology can help.</p>
                                 <p>With more than a thousand plus happy customers, a decade of experience, and a veteran
-                                    team, we aid you in all your business endeavors. We work with your team to
-                                    understand
+
                                     your business challenges, and how our technology can help.</p>
                                 <p>With more than a thousand plus happy customers, a decade of experience, and a veteran
                                     team, we aid you in all your business endeavors. We work with your team to
@@ -244,7 +249,7 @@
                                                 alt=""></span></a>
                                 </div>
                             </div>
-                            <div id="menu2" class="tab-pane fade">
+                            <div id="service3" class="tab-pane newclass">
                                 <p>With more than a thousand plus happy customers, a decade of experience, and a veteran
                                     team, we aid you in all your business endeavors. We work with your team to
                                     understand
@@ -254,8 +259,7 @@
                                     understand
                                     your business challenges, and how our technology can help.</p>
                                 <p>With more than a thousand plus happy customers, a decade of experience, and a veteran
-                                    team, we aid you in all your business endeavors. We work with your team to
-                                    understand
+
                                     your business challenges, and how our technology can help.</p>
                                 <div class="d-flex logos">
                                     <img src="img/Group.svg" alt="">
@@ -269,7 +273,7 @@
                                                 alt=""></span></a>
                                 </div>
                             </div>
-                            <div id="menu3" class="tab-pane fade">
+                            <div id="service4" class="tab-pane newclass">
                                 <p>With more than a thousand plus happy customers, a decade of experience, and a veteran
                                     team, we aid you in all your business endeavors. We work with your team to
                                     understand
@@ -279,8 +283,7 @@
                                     understand
                                     your business challenges, and how our technology can help.</p>
                                 <p>With more than a thousand plus happy customers, a decade of experience, and a veteran
-                                    team, we aid you in all your business endeavors. We work with your team to
-                                    understand
+
                                     your business challenges, and how our technology can help.</p>
                                 <div class="d-flex logos">
                                     <img src="img/Group.svg" alt="">
@@ -294,14 +297,13 @@
                                                 alt=""></span></a>
                                 </div>
                             </div>
-                            <div id="menu4" class="tab-pane fade">
+                            <div id="service5" class="tab-pane newclass">
                                 <p>With more than a thousand plus happy customers, a decade of experience, and a veteran
                                     team, we aid you in all your business endeavors. We work with your team to
                                     understand
                                     your business challenges, and how our technology can help.</p>
                                 <p>With more than a thousand plus happy customers, a decade of experience, and a veteran
-                                    team, we aid you in all your business endeavors. We work with your team to
-                                    understand
+
                                     your business challenges, and how our technology can help.</p>
                                 <p>With more than a thousand plus happy customers, a decade of experience, and a veteran
                                     team, we aid you in all your business endeavors. We work with your team to
@@ -326,7 +328,7 @@
         </div>
     </section>
 
-    <section class="best-work">
+    <section class="best-work" data-aos="fade-up" data-aos-duration="2000">
         <div class="container">
             <h3 class="serv">Our best work</h3>
             <h2 class="grow">Our recent projects.</h2>
@@ -334,39 +336,43 @@
                 <div class="col-md-7 mt-4">
                     <div class="image-box1">
                         <img src="img/im1.svg" alt="" class="img-fluid">
-                        <h3 class="thence">Thence creative solution</h3>
-                        <a href="pr1">
-                            <p class="project">Show project</p>
-                        </a>
                     </div>
+                    <h3 class="thence">Thence creative solution</h3>
+                    <a href="pr1">
+                        <p class="project">Show project</p>
+                    </a>
+
                 </div>
                 <div class="col-md-5 mt-4">
                     <div class="image-box2">
                         <img src="img/im2.svg" alt="" class="img-fluid">
-                        <h3 class="thence">Fitness club</h3>
-                        <a href="pr1">
-                            <p class="project">Show project</p>
-                        </a>
                     </div>
+                    <h3 class="thence">Fitness club</h3>
+                    <a href="pr1">
+                        <p class="project">Show project</p>
+                    </a>
+
                 </div>
                 <div class="col-md-7 mt-4">
                     <div class="image-box3">
                         <img src="img/phone.svg" alt="" class="img-fluid">
-                        <h3 class="thence">Thence creative solution</h3>
-                        <a href="pr1">
-                            <p class="project">Show project</p>
-                        </a>
                     </div>
+                    <h3 class="thence">Thence creative solution</h3>
+                    <a href="pr1">
+                        <p class="project">Show project</p>
+                    </a>
+
 
                 </div>
                 <div class="col-md-5 mt-4">
                     <div class="image-box4">
                         <img src="img/lap.svg" alt="" class="img-fluid">
-                        <h3 class="thence">Fitness club</h3>
-                        <a href="pr1">
-                            <p class="project">Show project</p>
-                        </a>
                     </div>
+
+                    <h3 class="thence">Fitness club</h3>
+                    <a href="pr1">
+                        <p class="project">Show project</p>
+                    </a>
 
                 </div>
             </div>
@@ -384,7 +390,7 @@
     <section class="know-more">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-left" data-aos-duration="2000">
                     <h2 class="grow">
                         Why not get to <br>
                         <span>know </span>us
@@ -404,11 +410,11 @@
                         <div class="col-4">
                             <h2><span class="count">300 </span>+</h2><span>Employees</span>
                         </div>
-                       
+
                     </div>
                     <button type="button" class="btn btn-danger ab-us">About us</button>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7" data-aos="fade-right" data-aos-duration="2000">
 
                     <img src="img/know-more.png" alt="" class="img-fluid">
                 </div>
@@ -417,23 +423,23 @@
     </section>
     <section class="orange">
         <div class="orng text-center">
-            <h2 class="craft">Lets craft brilliance a <br>
+            <h2 class="craft" data-aos="fade-down" data-aos-duration="2000">Lets craft brilliance a <br>
                 billionfold better <span>!</span></h2>
             <h2 class="veuz">VEUZ CONCEPTS</h2>
-            <img src="img/Illustration.svg" alt="">
+            <img src="img/Illustration.svg" alt="" class="" data-aos="fade-up" data-aos-duration="1000">
         </div>
     </section>
 
-    <section class="testimonials py-50">
+    <section class="testimonials py-50" data-aos="fade-up" data-aos-duration="2000">
         <div class="container py-5">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-right">
                     <h3 class="we">Client testimonials</h3>
                     <h2 class="grow">We ensure value <br>
                         for our clients, so they <br>
                         value our work.</h2>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7" data-aos="fade-left" data-aos-duration="2000">
                     <div class="owl-carousel owl-carousel3 owl-theme jacob5">
                         <div class="tst-crsl item">
                             <div class="row tstm">
@@ -509,7 +515,7 @@
             </div>
         </div>
     </section>
-    <section class="process  py-3">
+    <section class="process  py-3" data-aos="fade-up" data-aos-duration="2000">
         <div class="container">
             <h3 class="serv">Our process</h3>
             <h2 class="grow">Our process</h2>
@@ -575,7 +581,8 @@
                     </div>
                 </div>
             </div>
-            <div class="help-sec">
+            <div class="help-sec" data-aos="fade-up"
+            data-aos-duration="2000">
                 <h3>How can we help you? <br>
                     We'd be delighted to hear from you.
                 </h3>
@@ -598,9 +605,11 @@
                     </div>
                     <div class="col-md-4">
                         <div class="row">
-                            <div class="col-md-6  mail-ic">
-                                <h6><span><img src="img/email-ic.png" alt=""></span>Email</h6>
-                                <h6><span><img src="img/cell.png" alt=""></span> Phone</h6>
+                            <div class="col-md-6 ">
+                                <div class="mail-ic"> <h6><span><img src="img/email-ic.png" alt=""></span>Email</h6></div>
+                                <div class="cell"> <h6><span><img src="img/cell.png" alt=""></span> Phone</h6></div>
+                               
+                               
                             </div>
                             <div class="col-md-6">
                                 <a href="">support@veuzconcepts.com</a>
@@ -646,14 +655,14 @@
                         </div>
                         <div class="col-md pink pl-0">
                             <h5>Have questions?</h5>
-                            <div class="d-flex">
+                            <div class="d-flex p-support">
                                 <p class="support"><a href=""><img src="img/email-pink.svg" alt=""><span>
                                         </span>support@veuzconcepts.com</a></p>
                             </div>
 
 
-                            <p class="number"><a href=""><img src="img/call pink.svg" alt=""><span>
-                                    </span>+91 9544 33 1111</a></p>
+                            <p class="number"><a href=""><img src="img/call pink.svg" alt=""><span>+91 9544 33 1111
+                                    </span></a></p>
 
 
                         </div>
@@ -666,6 +675,8 @@
                             <a href="" class="terms">
                                 <p>Terms and conditions</p>
                             </a>
+
+
 
 
 
@@ -708,12 +719,15 @@
     <script src="js/owl.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/popper.min.js"></script>
+    <script src="js/aos.js"></script>
 
     <script>
         $('.owl-carousel1').owlCarousel({
             loop: true,
             margin: 10,
             nav: true,
+            autoplay: true,
+            autoplayTimeout: 1500,
             responsive: {
                 0: {
                     items: 2
@@ -732,6 +746,9 @@
             loop: true,
             margin: 10,
             nav: true,
+            autoWidth: true,
+            autoplay: true,
+            autoplayTimeout: 1500,
             responsive: {
                 0: {
                     items: 3
@@ -763,16 +780,49 @@
     </script>
     <script>
         $('.count').each(function () {
-        $(this).prop('Counter',0).animate({
-            Counter: $(this).text()
-        }, {
-            duration: 4000,
-            easing: 'swing',
-            step: function (now) {
-                $(this).text(Math.ceil(now));
-            }
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
         });
-    });
+    </script>
+
+    <script>
+        let totalTabsCount = 0;
+        let activeTabIndex = 2;
+        let tabChangeTimeout = 3000;
+
+        totalTabsCount = $("#v-pills-tab .nav-link").length;
+
+        function tabChangeHandler() {
+
+
+
+            $('.newclass').removeClass("active");
+
+            var element = document.getElementById("servicetab" + activeTabIndex);
+            element.classList.add("active");
+
+            var element = document.getElementById("service" + activeTabIndex);
+            element.classList.add("active");
+            if (activeTabIndex == 5) {
+                activeTabIndex = 1
+            } else {
+                activeTabIndex = activeTabIndex + 1
+            }
+
+        }
+
+        let AUTO_CHANGE_TIMER = setInterval(tabChangeHandler, tabChangeTimeout);
+    </script>
+
+    <script>
+        AOS.init();
     </script>
 
 </body>

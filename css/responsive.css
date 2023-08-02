@@ -13,7 +13,7 @@
 
     .home-bg h2 {
         font-size: 25px;
-        padding: 30px;
+        padding: 90px 25px 25px 25px
     }
 
     .home-content {
@@ -358,8 +358,16 @@
     .f-last{
         flex-wrap: wrap;
     }
-
-
-
+.cell{
+    text-align: start;
+    margin: 0;
+}
+.image-box1,.image-box2,.image-box3,.image-box4{
+    overflow: hidden;
+    height: auto;
+}
+.header{
+ position: absolute;
+}
 
 }
