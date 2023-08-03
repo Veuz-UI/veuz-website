@@ -91,14 +91,25 @@
                 </div>
             </div>
         </div>
-        <input class="check" type="checkbox" id="checkbox_toggle">
-        <div class="checkbox">
-            <label for="checkbox_toggle" class="slide">
-                <label for="checkbox_toggle" class="toggle"></label>
-                <label for="checkbox_toggle" class="text">Dark</label>
-                <label for="checkbox_toggle" class="text">Light</label>
-            </label>
-        </div>
+
+        
+      <div class="dark-light d-flex">
+        <label class="switch">
+            <input type="checkbox" id="switch-theme">
+            
+            <span class="slider"></span>
+          </label>
+      </div>
+         
+        <!-- <input class="check" type="checkbox">
+            <div class="checkbox">
+                <label for="checkbox_toggle" class="slide">
+                    <label for="checkbox_toggle" class="toggle"></label>
+                    <label for="checkbox_toggle" class="text">Dark</label>
+                    <label for="checkbox_toggle" class="text">Light</label>
+                </label>
+            </div> -->
+       
 
 
     </section>
@@ -117,7 +128,7 @@
                 <h3 class="serv">We are featured in</h3>
             </div>
             <div class="owl-carousel owl-carousel1 owl-theme mb-2 mt-4">
-                <div class="item"><img src="img/chronicle.png" alt="" class="img-fluid"></div>
+                <div class="item"><img src="img/snapshot.png" alt="" class="img-fluid"></div>
                 <div class="item"><img src="img/umbrella.png" alt="" class="img-fluid"></div>
                 <div class="item"><img src="img/cloud.png" alt="" class="img-fluid"></div>
                 <div class="item"><img src="img/geenish.png" alt="" class="img-fluid"></div>
@@ -709,7 +720,7 @@
 
 
 
-
+ 
 
 
 
@@ -823,6 +834,28 @@
 
     <script>
         AOS.init();
+    </script>
+
+
+    <script>
+        const btn = document.getElementById('switch-theme');
+localStorage.setItem('theme','light');
+btn.addEventListener('click',(e)=>{
+     let theme = localStorage.getItem('theme');
+     console.log(theme);
+     if(theme == 'light' || theme ==''){
+          document.documentElement.setAttribute('data-theme','dark');
+          localStorage.setItem('theme','dark');
+     }
+     else {
+          document.documentElement.removeAttribute('data-theme');
+          localStorage.setItem('theme','light');
+     }
+})
+    </script>
+
+    <script>
+        
     </script>
 
 </body>
