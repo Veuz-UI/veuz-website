@@ -13,7 +13,7 @@
 
     .home-bg h2 {
         font-size: 25px;
-        padding: 90px 25px 25px 25px
+        padding: 150px 25px 25px 25px
     }
 
     .home-content {
@@ -41,7 +41,7 @@
         font-family: 'ralewaysemibold';
         border: none;
         margin-top: 15px;
-        margin-bottom: 35px;
+        margin-bottom: 70px;
     }
 
     .home-bg h4 {
@@ -291,7 +291,7 @@
     }
 
     .owl-theme .owl-dots {
-        left: 160px;
+        left: 127px;
     }
 
 .logos{
@@ -303,7 +303,8 @@
 
 /* process */
 .process .grow{
-    width: 0px;
+    
+    font-size: 25px !important;
 }
 .help-sec h3{
     font-size: 25px;
@@ -369,5 +370,18 @@
 .header{
  position: absolute;
 }
-
+.btn-container.switch {
+    transform: rotate(180deg);
+    bottom: 25px;
+    top: 0px;
+}
+.chat{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+}
+.search-box{
+    display: none;
+}
 }

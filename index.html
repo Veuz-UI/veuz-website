@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veuz Website</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favi-icon.png">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="font/raleway/stylesheet.css">
@@ -18,6 +19,7 @@
 </head>
 
 <body>
+    <div class="cursor"></div>
     <section class="header">
         <nav class="navbar navbar-expand-md  bg-nav ">
             <div class="container-fluid navp">
@@ -66,10 +68,23 @@
         </nav>
     </section>
     <section class="home-bg">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
         <div class="home-content" data-aos="fade-up" data-aos-duration="2000">
             <h2>Innovative. Ingenious. In-time. <br> We invent <span>limitless possibilities</span></h2>
             <h4>We combine your unique idea with our expertise, to take your business where it’s never been before.
             </h4>
+            
 
             <button type="button" class="talk">Let's talk</button>
         </div>
@@ -92,24 +107,22 @@
             </div>
         </div>
 
-        
-      <div class="dark-light d-flex">
+
+        <!-- <div class="dark-light d-flex">
         <label class="switch">
             <input type="checkbox" id="switch-theme">
             
             <span class="slider"></span>
           </label>
-      </div>
-         
-        <!-- <input class="check" type="checkbox">
-            <div class="checkbox">
-                <label for="checkbox_toggle" class="slide">
-                    <label for="checkbox_toggle" class="toggle"></label>
-                    <label for="checkbox_toggle" class="text">Dark</label>
-                    <label for="checkbox_toggle" class="text">Light</label>
-                </label>
-            </div> -->
-       
+      </div> -->
+        <div class="btn-container switch">
+            <label class="switch btn-color-mode-switch">
+                <input value="1" name="color_mode" type="checkbox" id='switch-theme'>
+                <label class="btn-color-mode-switch-inner" data-off="LIGHT" data-on="DARK" for="color_mode"></label>
+            </label>
+        </div>
+
+
 
 
     </section>
@@ -118,8 +131,19 @@
             <img src="img/chat.png" alt="">
         </a>
     </div>
-    <div class="srch">
+    <!-- <div class="srch">
         <img src="img/search.png" alt="">
+    </div> -->
+    <div class="search-box">
+        <input type="text" placeholder="Type to search..">
+        <div class="search-icon">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cancel-icon">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="search-data">
+        </div>
     </div>
 
     <section class="crsl-logo">
@@ -404,7 +428,7 @@
                 <div class="col-md-5" data-aos="fade-left" data-aos-duration="2000">
                     <h2 class="grow">
                         Why not get to <br>
-                        <span>know </span>us
+                        <span>know</span> us ?
                     </h2>
                     <p>AWith more than a thousand plus happy customers, a decade of experience, and a veteran team, we
                         aid you in all your business endeavors. We work with your team to understand your business
@@ -434,10 +458,13 @@
     </section>
     <section class="orange">
         <div class="orng text-center">
-            <h2 class="craft" data-aos="fade-down" data-aos-duration="2000">Lets craft brilliance a <br>
-                billionfold better <span>!</span></h2>
+            
+                <h2 class="craft" data-aos="fade-down" data-aos-duration="2000">Lets craft brilliance a <br>
+                    billionfold better <span>!</span></h2>
+           
+            
             <h2 class="veuz">VEUZ CONCEPTS</h2>
-            <img src="img/Illustration.svg" alt="" class="" data-aos="fade-up" data-aos-duration="1000">
+            <img src="img/Illustration.svg" alt="" class=""  data-aos="fade-up" data-aos-duration="1000">
         </div>
     </section>
 
@@ -533,14 +560,14 @@
             <div class="row">
                 <div class="col p1">
                     <div class="row">
-                        <div class="col-md-5 brs">
+                        <div class="col-md-5 brs"  data-aos="fade-up" data-aos-duration="2000">
                             <div class="brain">
                                 <h5>01</h5>
                                 <h4>Brainstorming</h4>
                                 <img src="img/brain-ic.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-7 ids ps-md-1">
+                        <div class="col-md-7 ids ps-md-1"  data-aos="fade-up" data-aos-duration="2000">
                             <div class="idea">
                                 <h5>02</h5>
 
@@ -549,16 +576,16 @@
                         </div>
                     </div>
 
-                    <div class="col-md-12 py-3 pr-man1">
+                    <div class="col-md-12 py-3 pr-man1"  data-aos="fade-up" data-aos-duration="2000">
                         <img src="img/pr-man.png" alt="" class="">
                     </div>
                 </div>
-                <div class="col p2 ps-md-1">
+                <div class="col p2 ps-md-1"  data-aos="fade-down" data-aos-duration="2000">
                     <div class="mn">
                         <img src="img/pr-man2.png" alt="" class="">
                     </div>
                     <div class="row">
-                        <div class="col-md-6 red-r py-3 pe-md-0">
+                        <div class="col-md-6 red-r py-3 pe-md-0"  data-aos="fade-up" data-aos-duration="2000">
                             <div class="qlty">
                                 <h5>03</h5>
                                 <h4>Quality <br>
@@ -566,7 +593,7 @@
                                 <img src="img/qlty-ic.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-6 green-r py-3 ps-md-0">
+                        <div class="col-md-6 green-r py-3 ps-md-0"  data-aos="fade-up" data-aos-duration="2000">
                             <div class="research">
                                 <h5>04</h5>
                                 <h4>Research</h4>
@@ -576,7 +603,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3"  data-aos="fade-left" data-aos-duration="2000">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="pr-img3">
@@ -592,8 +619,7 @@
                     </div>
                 </div>
             </div>
-            <div class="help-sec" data-aos="fade-up"
-            data-aos-duration="2000">
+            <div class="help-sec" data-aos="fade-up" data-aos-duration="2000">
                 <h3>How can we help you? <br>
                     We'd be delighted to hear from you.
                 </h3>
@@ -617,10 +643,14 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-6 ">
-                                <div class="mail-ic"> <h6><span><img src="img/email-ic.png" alt=""></span>Email</h6></div>
-                                <div class="cell"> <h6><span><img src="img/cell.png" alt=""></span> Phone</h6></div>
-                               
-                               
+                                <div class="mail-ic">
+                                    <h6><span><img src="img/email-ic.png" alt=""></span>Email</h6>
+                                </div>
+                                <div class="cell">
+                                    <h6><span><img src="img/cell.png" alt=""></span> Phone</h6>
+                                </div>
+
+
                             </div>
                             <div class="col-md-6">
                                 <a href="">support@veuzconcepts.com</a>
@@ -720,7 +750,7 @@
 
 
 
- 
+
 
 
 
@@ -728,6 +758,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.min.js"></script>
+    <script src="js/fontawsom.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/aos.js"></script>
@@ -833,30 +864,74 @@
     </script>
 
     <script>
-        AOS.init();
+         AOS.init({disable: 'mobile'});
     </script>
 
 
     <script>
         const btn = document.getElementById('switch-theme');
-localStorage.setItem('theme','light');
-btn.addEventListener('click',(e)=>{
-     let theme = localStorage.getItem('theme');
-     console.log(theme);
-     if(theme == 'light' || theme ==''){
-          document.documentElement.setAttribute('data-theme','dark');
-          localStorage.setItem('theme','dark');
-     }
-     else {
-          document.documentElement.removeAttribute('data-theme');
-          localStorage.setItem('theme','light');
-     }
-})
+        localStorage.setItem('theme', 'light');
+        btn.addEventListener('click', (e) => {
+            let theme = localStorage.getItem('theme');
+            console.log(theme);
+            if (theme == 'light' || theme == '') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+            }
+        })
     </script>
 
     <script>
-        
+        // search
+        const searchBox = document.querySelector(".search-box");
+        const searchBtn = document.querySelector(".search-icon");
+        const cancelBtn = document.querySelector(".cancel-icon");
+        const searchInput = document.querySelector("input");
+        const searchData = document.querySelector(".search-data");
+        searchBtn.onclick = () => {
+            searchBox.classList.add("active");
+            searchBtn.classList.add("active");
+            searchInput.classList.add("active");
+            cancelBtn.classList.add("active");
+            searchInput.focus();
+            if (searchInput.value != "") {
+                var values = searchInput.value;
+                searchData.classList.remove("active");
+
+            } else {
+                searchData.textContent = "";
+            }
+        }
+        cancelBtn.onclick = () => {
+            searchBox.classList.remove("active");
+            searchBtn.classList.remove("active");
+            searchInput.classList.remove("active");
+            cancelBtn.classList.remove("active");
+            searchData.classList.toggle("active");
+            searchInput.value = "";
+        }
     </script>
+
+    <script>
+            const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+    </script>
+
+
 
 </body>
 
