@@ -368,12 +368,14 @@
     height: auto;
 }
 .header{
- position: absolute;
+ position: fixed;
 }
 .btn-container.switch {
     transform: rotate(180deg);
-    bottom: 25px;
-    top: 0px;
+   
+    top: 80px;
+    position: fixed;
+    z-index: 9999;
 }
 .chat{
     position: fixed;
